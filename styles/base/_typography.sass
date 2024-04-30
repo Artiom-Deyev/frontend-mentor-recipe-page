@@ -1,0 +1,39 @@
+@font-face
+    font-family: 'Young Serif'
+    src: url('../assets/fonts/young-serif/YoungSerif-Regular.ttf')
+
+@font-face
+    font-family: 'Outfit'
+    src: url('../assets/fonts/outfit/Outfit-VariableFont_wght.ttf')
+
+.heading
+    font-family: Young Serif
+    line-height: 100%
+    font-weight: 400
+    margin-bottom: 24px
+    &_large
+        font-size: 40px
+    &_medium
+        font-size: 28px
+        line-height: 104%
+    &_small
+        font-family: Outfit
+        font-size: 20px
+        font-weight: 600
+        line-height: 95%
+    &_raspberry
+        color: $dark-raspberry
+
+.text
+    font-family: Outfit
+    line-height: 150%
+    font-size: 16px
+    font-weight: 300
+    color: $wenge-brown
+    &_bold
+        font-weight: 600
+
+@media (max-width: 375px)
+    .heading
+        &_large
+            font-size: 36px

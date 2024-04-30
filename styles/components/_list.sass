@@ -1,0 +1,25 @@
+.list
+    margin-left: 40px
+    &_numbered
+        list-style: decimal
+        margin-left: 25.5px
+    &__item
+        position: relative
+        margin-bottom: 8px
+        &_dotted
+            display: block
+            &::before
+                content: '.'
+                position: absolute
+                top: -14.5px
+                left: -36px
+                color: #854632
+                font-size: 34px
+        &_numbered
+            position: relative
+            padding-left: 15px
+            &::marker
+                font-family: Outfit
+                font-weight: 600
+                color: $brandy-red
+                position: absolute
