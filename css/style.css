@@ -199,4 +199,8 @@ body {
 }
 .table__item_8 {
   grid-area: 4/2/5/3;
+}
+
+.attribution {
+  margin-bottom: 32px;
 }/*# sourceMappingURL=style.css.map */
